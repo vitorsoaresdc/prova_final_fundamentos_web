@@ -1,0 +1,69 @@
+body {
+    margin:0;
+    padding:0;
+    width:1024px;
+    height:500px;
+    margin: auto;
+    margin-top:20px;
+    border: 1px solid #262626;
+    border-radius:8px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin:50px;
+}
+
+.menu ul {
+    display:flex;
+    border: 1px solid #666666;
+    height:25px;
+    line-height:25px;
+}
+
+.menu ul a {
+    color:#666666;
+    text-decoration: none;
+    margin-right:10px;
+    list-style: none;
+    font-size:0.9rem;
+    margin-right:10px;
+}
+
+.menu ul a:hover {
+    background-color: #666666;
+    color:#fff;
+    border-radius:5px;
+}
+
+/*box conteudo*/
+
+.box_conteudo {
+    width:400px;
+    height:200px;
+    border:1px solid #262626;
+    position: absolute;
+    top:210px;
+    left:0;
+    right:0;
+    margin: auto;
+    text-align: center;
+}
+
+.box_conteudo a {
+    font-size:0.7rem;
+    text-decoration: none;    
+    color:#fff;
+    
+}
+
+.botao_dolar{
+    background-color:#666666;
+    width:130px;
+    height:30px;
+    line-height:30px;
+    border-radius:8px;
+    left:0;
+    right:0;
+    margin: auto;
+}
